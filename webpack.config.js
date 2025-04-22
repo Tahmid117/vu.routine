@@ -42,9 +42,9 @@ module.exports = {
 
   ],
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.[contenthash].js',
-    publicPath: './'
-  }
+  path: path.resolve(__dirname, 'dist'),
+  publicPath: '/vu.routine/',
+},
+
   
 };
