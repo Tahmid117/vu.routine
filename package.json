@@ -1,13 +1,14 @@
 {
   "name": "sheet-routine",
   "homepage": "https://Tahmid117.github.io/vu.routine",
-
   "version": "1.0.0",
   "description": "This is an webapp to show a routine using google sheet xlsx file",
   "main": "./src/index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +23,7 @@
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.9.0",
     "postcss-cli": "^11.0.0",
