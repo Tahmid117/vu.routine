@@ -42,7 +42,9 @@ module.exports = {
 
   ],
   output: {
-    path: path.resolve(__dirname, 'docs'),
-    filename: 'bundle.[contenthash].js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.[contenthash].js',
+    publicPath: './'
   }
+  
 };
