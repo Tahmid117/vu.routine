@@ -1,5 +1,7 @@
 {
   "name": "sheet-routine",
+  "homepage": "https://Tahmid117.github.io/vu.routine",
+
   "version": "1.0.0",
   "description": "This is an webapp to show a routine using google sheet xlsx file",
   "main": "./src/index.js",
